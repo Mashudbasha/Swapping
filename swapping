@@ -1,0 +1,23 @@
+package com;
+
+import java.util.Scanner;
+
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner Sc = new Scanner(System.in);
+        int X,Y,E;
+        System.out.println("Enter the swapping number X and Y");
+        X= Sc.nextInt();
+        Y= Sc.nextInt();
+        System.out.println("Before the swapping the numbers:" +X+" "+Y);
+        E=X;
+        X=Y;
+        Y=E;
+        System.out.println("After swapping:" +X+ " "+Y);
+       
+	}
+	
+
+}
